@@ -19,25 +19,25 @@ Create a New Account
         </h1>
         <form action="#" method="get">
             <div id="formSignup">
-            <label for="fullname" id="fullla">
+            <label for="fullname" id="fullla" class="required">
 Full Name
             </label><br/>
             <input type="text" placeholder="Frist name & Last name"
-             name="fullname" id="fullname"/><br/>
-<label for="emailpage3" id="emailpala">
+             name="fullname" id="fullname" required/><br/>
+<label for="emailpage3" id="emailpala" class="required">
 Email Address
 </label><br/> 
-<input  type="email" name="email" id="emailpage3" placeholder="Enter your Email"
+<input  type="email" name="email" id="emailpage3" placeholder="Enter your Email"required
 /><br/>
-<label for="passpage3" id="passpala">
+<label for="passpage3" id="passpala" class="required">
 Password
 </label><br/>
-<input  type="password" name="pass" id="passpage3" placeholder="Enter your password" /><br>
-<label for="confirm" id="confirmla"> Confirm Password</label><br/>
+<input  type="password" name="pass" id="passpage3" placeholder="Enter your password" required/><br>
+<label for="confirm" id="confirmla" class="required"> Confirm Password</label><br/>
 <input type="password" id="confirm" placeholder="Re-enter your password"
-name="confirmpassword"/><br/>
+name="confirmpassword" required/><br/>
 <input type="submit" name="signup" value="Signup"
-id="submitSignup"/>
+id="submitsignup" disabled/>
 </div>
 </form>
 <div class="div5 div6">
@@ -45,5 +45,38 @@ id="submitSignup"/>
     <p id="pbottom2">Created with ❤ by Mohamed</p>
 
 </div>
+<script >
+    let fullname=document.getElementById("fullname");
+let emailpage3=document.getElementById("emailpage3");
+let passpage3=document.getElementById("passpage3");
+let confirm1=document.getElementById("confirm");
+    let submitSignup=document.getElementById("submitsignup");
+
+
+function submit222(){
+    if(fullname.value !=="" && emailpage3.value !=="" && passpage3.value !=="" && confirm1.value !=="" ){
+        submitSignup.disabled=false;
+    }else{
+        submitSignup.disabled=true;
+ 
+    }
+}
+fullname.onkeyup=submit222;
+emailpage3.onkeyup=submit222;
+passpage3.onkeyup=submit222;
+function conf() {
+    if(passpage3.value !==confirm1.value){
+        confirm1.style.borderColor="red";
+    }else{
+        confirm1.style.borderColor="#3DCCC7";
+        confirm1.style.outline="none";
+        confirm1.onkeyup=submit222;
+
+    }
+}
+confirm1.onkeyup=conf;
+submitSignup.onclick = submit222;
+</script>
+
     </body>
 </html>

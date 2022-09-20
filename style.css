@@ -31,6 +31,9 @@ text-align: center;height: 40px;}
 color: #FFFFFF;border-radius:15px ;font-size: 25px;
 text-align: center;font-family: normal;float: right;
 width: 257px;height: 60px;}
+#submit:disabled{margin-left:106px;margin-top: 20px;
+    color: #FFFFFF;background-color: #070acf;border-color: #070acf;
+    font-size: 21.5px;height: 45px; border-radius: 15px;width: 200px;}
 .div3{width: 810px;margin-left: 247px;margin-right: 248px;
 margin-top: 44px;margin-bottom: 120px;}
 #pmy{color: #4B7F52;font-size: 29px;
@@ -42,63 +45,37 @@ border-radius: 15px;border-width: 2px;font-family: normal;font-weight: bold;
 font-size: 20px;width: 169px;
 height: 40px;padding-left: 10px;float: right;margin-top: -4px;}
 /*----------------*/
-.div11{border:3px solid #7DD181;width: 810px;
-height: 95px;border-radius: 15px;
-margin-left: 247px;margin-bottom:15px ;}
-#h22{margin-left: 30px;color: #575757;
-font-size: 30px;margin-top: 22px;width: 320px;
-float: left;margin-bottom: -30px;}
-#btn{background-color:#C9FFE2 ;border:3px solid #7DD181;
-color: #7DD181;border-radius: 19px;width: 119px;
-height: 38px;margin-top: 22px;
-font-size: 20px;}
-#f{width: 38px;height: 38px;border-radius: 4px;
-border: 3px solid #FF6E6E;color: #FF6E6E;
-background-color: #FFE6E6;float: right;
-margin-top: 22px;margin-right: 22px;font-size: 18px;}
-#time1{font-size: 15px;color: #9B9B9B;
-  width: 73px; height: 60px;margin-left: 26px;
-  text-align: center;
-}
-        /*----------------------*/
-        .div12{border:3px solid #FF9A34;width: 810px;
-            height: 95px;border-radius: 15px;
-            margin-left: 247px;margin-bottom:15px ;}
-            #btn2{background-color:#FFE7CF ;border:3px solid #FF9A34;
-                color: #FF9A34;border-radius: 19px;width: 119px;
-                height: 38px;margin-top: 22px;
-                font-size: 20px;}
-                #f1{width: 38px;height: 38px;border-radius: 4px;
-                    border: 3px solid #FF6E6E;color: #FF6E6E;
-                    background-color: #FFE6E6;
-                    margin-top: 22px;margin-right: 20px;font-size: 18px;}
-                #t1{width: 38px;height: 38px;border-radius: 4px;
+
+
+.div15{
+    width: 100%;
+    border:3px solid #D5D5D5;
+    border-radius: 15px;
+    height: 95px;
+    margin-bottom: 20px;
+    
+}        #h22{margin-left: 30px;color: #575757;
+            font-size: 30px;margin-top: 22px;width: 320px;
+            float: left;margin-bottom: -30px;}
+            
+            .f1{width: 38px;height: 38px;border-radius: 4px;
+            border: 3px solid #FF6E6E;color: #FF6E6E;
+            background-color: #FFE6E6;float: right;
+            margin-top: 22px;margin-right: 22px;font-size: 18px;}
+            #time1{font-size: 15px;color: #9B9B9B;
+              width: 73px; height: 60px;margin-left: 26px;
+              text-align: center;
+            }
+                .t1{width: 38px;height: 38px;border-radius: 4px;
                     border: 3px solid #7DD181;color: #7DD181;
                     background-color: #B6F9C9;
                     margin-top: 22px;margin-right: 20px;font-size: 18px;}
                     .divft{float: right;}
-        /**************************/
- /*----------------------*/
- .div13{border:3px solid #D5D5D5;width: 810px;
-    height: 95px;border-radius: 15px;
-    margin-left: 247px;margin-bottom:15px ;}
-    #btn3{background-color:#F2F2F2 ;border:3px solid #6E6E6E;
-        color: #6E6E6E;border-radius: 19px;width: 119px;
-        height: 38px;margin-top: 22px;
-        font-size: 20px;}
-/**************************/ 
-        .div14{border:3px solid #D5D5D5;width: 810px;
-            height: 95px;border-radius: 15px;
-            margin-left: 247px;margin-bottom:15px ;}
-            #btn4{background-color:#F2F2F2 ;border:3px solid #6E6E6E;
-                color: #6E6E6E;border-radius: 19px;width: 119px;
-                height: 38px;margin-top: 22px;
-                font-size: 20px;}
-        /**************************/ 
-        .div15{border:3px solid #D5D5D5;width: 810px;
-            height: 95px;border-radius: 15px;
-            margin-left: 247px;margin-bottom:75px ;}
-            #btn5{background-color:#F2F2F2 ;border:3px solid #6E6E6E;
+ 
+            .divdivdiv{width: 810px;
+                margin-left: 247px;
+            margin-bottom: 0;}
+            .btn5{background-color:#F2F2F2 ;border:3px solid #6E6E6E;
                 color: #6E6E6E;border-radius: 19px;width: 119px;
                 height: 38px;margin-top: 22px;
                 font-size: 20px;}
@@ -116,7 +93,8 @@ margin-top: 22px;margin-right: 22px;font-size: 18px;}
         margin-right: 80px;margin-top: 50px;margin-bottom: 50px;
         width: fit-content;
         }
-        .div7{margin-top: 75px;}
+        .div7{position: relative;
+        bottom: 0;margin-top: 100px;}
         /*------------------------------------------------------------------------------------------*/
         /*page2 */
         
@@ -155,6 +133,9 @@ margin-top: 15px;margin-bottom: 6px;}
 #submitlog{margin-left:106px;margin-top: 20px;
 color: #FFFFFF;background-color: #3DCCC7;border-color: #3DCCC7;
 font-size: 21.5px;height: 45px; border-radius: 15px;width: 200px;}
+#submitlog:disabled{margin-left:106px;margin-top: 20px;
+    color: #FFFFFF;background-color: #070acf;border-color: #070acf;
+    font-size: 21.5px;height: 45px; border-radius: 15px;width: 200px;}
 #p12{margin-left: 66px;width: 178px;float: left;
 font-size: 18px;margin-top: 50px;height: 22.5px;}
 #a4{color:#07BEB8 ;font-size: 18px;
@@ -192,8 +173,19 @@ font-size: 18px;margin-top: 50px;height: 22.5px;}
                 border:3px solid #3DCCC7 ;border-radius: 12px;
             color: #B2B2B2;padding-left: 10px;font-size: 17px;
             margin-top: 10px;margin-bottom: 10px;}
-            #submitSignup{margin-left:106px;margin-top: 20px;
+            #submitsignup{margin-left:106px;margin-top: 20px;
                 color: #FFFFFF;background-color: #3DCCC7;border-color: #3DCCC7;
                 font-size: 21.5px;height: 45px; border-radius: 15px;width: 200px;
                 margin-top: 35px;}
+
+
+                #submitsignup:disabled{margin-left:106px;margin-top: 20px;
+                    color: #FFFFFF;background-color: #070acf;border-color: #070acf;
+                    font-size: 21.5px;height: 45px; border-radius: 15px;width: 200px;}
                 .div6{margin-top: 60px;}
+
+                .required::after{
+                    content: "*";
+                    margin-left: 1%;
+                    color: red;
+                }

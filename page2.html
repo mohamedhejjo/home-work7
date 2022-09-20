@@ -15,17 +15,17 @@
         <h1 id="h1login">LOGIN</h1>
         <form action="#" method="get">
             <div id="Login1f">
-<lable for="email" id="emailla">
+<lable for="email" id="emailla"class="required">
 Email Address
 </lable><br>
-<input type="email" id="email" name="email" placeholder="Enter your Email"/><br/>
-<label for="pass" id="passla">
+<input type="email" id="email" name="email" placeholder="Enter your Email" required/><br/>
+<label for="pass" id="passla"class="required">
 Password
 </label><br>
-<input type="password" id="pass" placeholder="Enter your password"
+<input type="password" id="pass" placeholder="Enter your password"required
 name="password"/><br/>
 <a href="#" id="a2">Forget Password?</a><br/>
-<input type="submit" name="login" value="Login" id="submitlog"/><br/>
+<input type="submit" name="login" value="Login" id="submitlog" disabled/><br/>
 <p id="p12">Dont have an account? </p><a href="./page3.html" id="a4">Signup Now</a>
 </div> </form>
 <div class="div5 div6" >
@@ -33,5 +33,23 @@ name="password"/><br/>
     <p id="pbottom2">Created with ❤ by Mohamed</p>
 
 </div>
+<script>
+    let email=document.getElementById("email");
+let pass=document.getElementById("pass");
+    let submitlog=document.getElementById("submitlog");
+
+function submit3(){
+    if(email.value !=="" && pass.value !==""){
+        submitlog.disabled=false;
+    }else{
+        submitlog.disabled=true;
+ 
+    }
+}
+email.onkeyup=submit3;
+pass.onkeyup=submit3;
+submitlog.onclick=submit3;
+</script>
+
     </body>
 </html>

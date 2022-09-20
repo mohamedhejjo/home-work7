@@ -11,15 +11,15 @@
     <p id="btntop">Logout</p>
 </div>
 <div class="div2">
-    <form action="#" method="get">
+    <form action="#" method="get" id="form1">
         <div id="filedform1">
-                <label for="tasktitle" id="task">Task Title</label><br>
-        <input type="text" id="tasktitle" name="tasktitle" placeholder="Type your next Task here ..."/><br>
-     <label for="time" id="timela">
+                <label for="tasktitle" id="task"class="required">Task Title</label><br>
+        <input type="text" id="tasktitle" name="tasktitle" placeholder="Type your next Task here ..."required/><br>
+     <label for="time" id="timela"class="required">
          Time
         </label><br>
-        <input type="datetime-local" id="time" name="time"/>
-        <input type="submit" name="submit" id="submit" value="Create Task"/>
+        <input type="datetime" id="time" name="time" required/>
+        <input type="submit" name="submit" id="submit" value="Create Task" disabled/>
     </div> </form>
 </div>
 <div class="div3">
@@ -28,55 +28,50 @@
     <option>All Tasks</option>
 </select>
 </div>
-<div class="div11">
+<!-- <div class="div11">
     <h2 id="h22">First task to be Done!</h2>
-    <button id="btn">Done</button>
-    <button id="f">x</button>
+    <button class="btn">Done</button>
+    <button class="f">x</button>
     <p id="time1"  style="margin-top: -5px;">10:30 AM</p>
 </div>
 <div class="div12">
     <h2 id="h22">Second task to be Done!</h2>
-    <button id="btn2">Progress</button>
+    <button class="btn2">Progress</button>
     <div class="divft">
-        <button id="f1">x</button>
-        <button id="t1">✓</button>
+        <button class="f1">x</button>
+        <button class="t1">✓</button>
 
     </div>    <p id="time1" style="margin-top: -5px;">10:30 AM</p>
 </div>
 <div class="div13">
     <h2 id="h22">Third task to Done!</h2>
-    <button id="btn3">Waiting</button>
+    <button class="btn3">Waiting</button>
     <div class="divft">
-        <button id="f1">x</button>
-        <button id="t1">✓</button>
+        <button class="f1">x</button>
+        <button class="t1">✓</button>
 
     </div>    <p id="time1" style="margin-top: -5px;" >10:30 AM</p>
 </div>
 <div class="div14">
     <h2 id="h22">Fifth task to be Done!</h2>
-    <button id="btn4">Waiting</button>
+    <button class="btn4">Waiting</button>
     <div class="divft">
-        <button id="f1">x</button>
-        <button id="t1">✓</button>
+        <button class="f1">x</button>
+        <button class="t1">✓</button>
 
     </div>    <p id="time1" style="margin-top: -5px;" >10:30 AM</p>
+</div> -->
+<div class="divdivdiv">
 </div>
-<div class="div15">
-    <h2 id="h22">Last task to be Done!</h2>
-    <button id="btn5">Waiting</button>
-    <div class="divft">
-        <button id="f1">x</button>
-        <button id="t1">✓</button>
 
-    </div>
-   
-    <p id="time1" style="margin-top: -5px;" >10:30 AM</p>
-</div>
 <div class="div5 div7">
     <p id="pbottom1">Copyright reserved  ©  2022</p>
     <p id="pbottom2">Created with ❤ by Mohamed</p>
 
 </div>
     </div>
+    <script src="script.js">
+        
+    </script>
     </body>
 </html>
